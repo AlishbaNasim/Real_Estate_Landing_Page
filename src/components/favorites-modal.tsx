@@ -30,7 +30,7 @@ export function FavoritesModal({ isOpen, onClose }: FavoritesModalProps) {
             <Heart className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">No favorites yet</h3>
             <p className="text-muted-foreground mb-4">Start exploring properties and add them to your favorites!</p>
-            <Link href="/properties"><Button onClick={onClose}>Browse Properties</Button></Link>
+            <Link href="/"><Button onClick={onClose}>Browse Properties</Button></Link>
           </div>
         ) : (
           <div className="space-y-4">
