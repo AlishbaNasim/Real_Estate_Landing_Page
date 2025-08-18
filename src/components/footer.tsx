@@ -62,7 +62,7 @@ export function Footer() {
                 Contact
               </Link>
               <Link
-                href="/blog"
+                href=""
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Blog
@@ -75,31 +75,31 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-foreground">Services</h3>
             <div className="space-y-2">
               <Link
-                href="/buy"
+                href="/"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Buy Property
               </Link>
               <Link
-                href="/sell"
+                href="/"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Sell Property
               </Link>
               <Link
-                href="/rent"
+                href="/"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Rent Property
               </Link>
               <Link
-                href="/valuation"
+                href="/"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Property Valuation
               </Link>
               <Link
-                href="/management"
+                href="/"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Property Management
