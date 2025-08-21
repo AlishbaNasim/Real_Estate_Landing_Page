@@ -61,12 +61,12 @@ export function Footer() {
               >
                 Contact
               </Link>
-              <Link
+              {/* <Link
                 href=""
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 Blog
-              </Link>
+              </Link> */}
             </div>
           </div>
 
